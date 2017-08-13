@@ -1,7 +1,7 @@
 {
-  "name": "hn-server",
+  "name": "artemis-server",
   "version": "1.0.0",
-  "description": "A Hacker News clone server",
+  "description": "A GraphQL-enabled server seed",
   "main": "index.js",
   "author": "Aaroh Mankad (http://aaromankad.com)",
   "license": "MIT",
