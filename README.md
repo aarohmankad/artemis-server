@@ -1,4 +1,4 @@
-<!-- ![Logo of the project](./images/logo.sample.png) -->
+![Logo of the project](./logo.jpg)
 
 # Artemis Server
 > A GraphQL-enabled server seed
@@ -25,16 +25,16 @@ yarn start
 ## Developing
 
 ### Built With
-`apollo-server-express`: GraphQL integration with `express`  
-`bcrypt`: hashing and comparing user passwords  
-`dataloader`: batching separate requests for same model type  
-`jsonwebtoken`: assigning login tokens to users on sign in  
-`merge-graphql-schemas`: allowing modularization of type definitions and resolvers  
+`apollo-server-express`: GraphQL integration with `express`
+`bcrypt`: hashing and comparing user passwords
+`dataloader`: batching separate requests for same model type
+`jsonwebtoken`: assigning login tokens to users on sign in
+`merge-graphql-schemas`: allowing modularization of type definitions and resolvers
 `subscription-transport-ws`: enabling live updates between client/server through websockets.
 
 ### Prerequisites
-[Node.js](https://nodejs.org/en/), [nvm](https://github.com/creationix/nvm) (preferred)  
-[Yarn](https://yarnpkg.com/en/) (preferred)  
+[Node.js](https://nodejs.org/en/), [nvm](https://github.com/creationix/nvm) (preferred)
+[Yarn](https://yarnpkg.com/en/) (preferred)
 [nodemon](https://nodemon.io/0) (for development)
 
 ### Contributing
