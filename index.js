@@ -28,6 +28,7 @@ const
       app = express(),
       buildOptions = async (req, res) => {
         const user = await authenticate(req, mongo.Users, SECRET_KEY);
+
         return {
           context: {
             dataloaders: buildDataLoaders(mongo),
