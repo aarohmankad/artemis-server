@@ -22,11 +22,3 @@ module.exports = (mongo) => {
 
   return loaders;
 };
-// ({
-//   userLoader: new DataLoader(
-//     keys => batchUsers(mongo.Users, keys),
-//     {
-//       cacheKeyFn: key => key.toString()
-//     },
-//   ),
-// })
